@@ -5,24 +5,24 @@ import SideBar from './sidebar'
 
 import Container from 'react-bootstrap/Container';
 
-function App() {
+function AppPage() {
   return (
     <div>
       <Header />
-        <Container>
-          <div className='row'>
-            <div className="col-sm-12 col-md-8 col-lg-9">
-              <PostList />
-            </div>
-            <div className="col-sm-12 col-md-4 col-lg-3">
-              <SideBar/>
-            </div>
+      <Container>
+        <div className="row">
+          <div className="col-sm-12 col-md-8 col-lg-9">
+            <PostList />
           </div>
-        </Container>
+          <div className="col-sm-12 col-md-4 col-lg-3">
+            <SideBar />
+          </div>
+        </div>
+      </Container>
 
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default AppPage;

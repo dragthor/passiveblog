@@ -1,17 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import AboutPage from './About';
+import ErrorPage from './Error';
+
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 // Importing the Bootstrap Css
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    Component: App,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/about",
+    Component: AboutPage
+  },
+]);
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

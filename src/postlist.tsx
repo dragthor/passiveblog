@@ -39,7 +39,7 @@ const PostList = () => {
         <>
             {loading && <div>A moment please...</div>}
             {error && (
-                <div>{`There is a problem fetching the post data - ${error}`}</div>
+                <div className="alert alert-danger" role="alert">{`There is a problem fetching the post data - ${error}`}</div>
             )}
 
             <div className="row">

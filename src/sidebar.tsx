@@ -1,5 +1,3 @@
-import Container from 'react-bootstrap/Container';
-
 const SideBar = () => {
     return (
         <div className="bg-light rounded-3 p-3">
@@ -22,13 +20,7 @@ const SideBar = () => {
                 <li><a href="https://www.amazon.com/Profiting-Iron-Condor-Options-Strategies-ebook/dp/B004K1F7HG/?tag=passiveoption-20" target="_new">Profiting w/Iron Condor Options</a></li>
                 <li><a href="https://www.amazon.com/Options-as-Strategic-Investment-Fifth/dp/0735204659/?tag=passiveoption-20" target="_new">Options as a Strategic Investment</a></li>
             </ul>
-            <h5>Trader Roll</h5>
-            <ul>
-                <li><a href="https://www.youtube.com/channel/UCGzfu0Q8QtSJvfwJlJ0t-0g" target="_new">Tammy Chambless</a></li>
-                <li><a href="https://thetagang.com/joonie" target="_new">Theta Gang</a></li>
-                <li><a href="https://wealthyoption.com/" target="_new">Wealthy Option</a></li>
-                <li><a href="https://www.youtube.com/@TommKing13" target="_new">Tom King Trades</a></li>
-            </ul>
+
             <h5>Helpful Links</h5>
             <ul>
                 <li><a href="https://finviz.com/calendar.ashx" target="_new">Economic Calendar</a></li>
@@ -40,6 +32,14 @@ const SideBar = () => {
                 <li><a href="https://ycharts.com/indicators/10_year_3_month_treasury_spread" target="_new">10 Year/3 Month Yield Spread</a></li>
                 <li><a href="https://tastyworks.freshdesk.com/support/solutions/articles/43000503202-cme-options-on-futures-specifications" target="_new">Options on Futures Spec</a></li>
 
+            </ul>
+
+            <h5>Trader Roll</h5>
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCGzfu0Q8QtSJvfwJlJ0t-0g" target="_new">Tammy Chambless</a></li>
+                <li><a href="https://thetagang.com/joonie" target="_new">Theta Gang</a></li>
+                <li><a href="https://wealthyoption.com/" target="_new">Wealthy Option</a></li>
+                <li><a href="https://www.youtube.com/@TommKing13" target="_new">Tom King Trades</a></li>
             </ul>
         </div>
     )
