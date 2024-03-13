@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 function AppPage() {
   return (
     <div>
-      <Header />
+      <Header mainTitle="Passive Option Trading" subTitle="Sell Options for Passive Income" />
       <Container>
         <div className="row">
           <div className="col-sm-12 col-md-8 col-lg-9">

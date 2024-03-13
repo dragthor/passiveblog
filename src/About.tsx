@@ -7,9 +7,9 @@ import Container from 'react-bootstrap/Container';
 function About() {
   return (
     <div>
-      <Header />
+      <Header mainTitle="About" subTitle="Passive Option Trading" />
       <Container>
-        <div className='row'>
+        <div className="row">
           <div className="col-sm-12 col-md-8 col-lg-9">
             <p>
               I'm a computer programmer trying to understand passive option trading. Hopefully I'm profitable (long term).

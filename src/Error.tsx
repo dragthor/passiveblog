@@ -10,7 +10,7 @@ function ErrorPage() {
 
     return (
         <div>
-            <Header />
+            <Header mainTitle="Error" subTitle="Passive Option Trading" />
             <Container>
                 <div className="row">
                     <div className="col-sm-12 col-md-8 col-lg-9">
