@@ -1,12 +1,14 @@
 import Header from './header'
 import Footer from './footer'
 import SideBar from './sidebar'
+import Navigation from './navigation';
 
 import Container from 'react-bootstrap/Container';
 
 function About() {
   return (
     <div>
+      <Navigation homeActive={false} aboutActive={true} />
       <Header mainTitle="About" subTitle="Passive Option Trading" />
       <Container>
         <div className="row">

@@ -1,6 +1,8 @@
 import Header from './header'
 import Footer from './footer'
 import SideBar from './sidebar'
+import Navigation from './navigation';
+
 import { useRouteError } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 
@@ -10,6 +12,7 @@ function ErrorPage() {
 
     return (
         <div>
+            <Navigation homeActive={true} aboutActive={false} />
             <Header mainTitle="Error" subTitle="Passive Option Trading" />
             <Container>
                 <div className="row">
