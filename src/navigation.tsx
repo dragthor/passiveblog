@@ -16,7 +16,7 @@ function Navigation(props: NavigationProps) {
             </li>
 
             <li className="nav-item">
-                <a href="https://github.com/dragthor/passiveblog" target="_blank" className="nav-link">Source Code</a>
+                <a href="https://github.com/dragthor/passiveblog" target="_blank" rel="noreferrer" className="nav-link">Source Code</a>
             </li>
         </ul>)
 };

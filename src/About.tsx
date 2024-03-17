@@ -19,9 +19,9 @@ function About() {
 
             <ul>
               <li>I have nothing to sell. No courses. No trainings. No coaching. No trade alerts.</li>
-              <li>I <u>do not</u> care which broker you use. I use <a href="https://www.fidelity.com/options-trading/overview" target="_blank">Fidelity</a>, <a href="https://start.tastyworks.com/#/login?referralCode=SP8DSHF682" target="_blank">TastyTrade</a>, and sometimes <a href="https://join.robinhood.com/kristok207" target="_blank">Robinhood</a>.</li>
+              <li>I <u>do not</u> care which broker you use. I use <a href="https://www.fidelity.com/options-trading/overview" target="_blank" rel="noreferrer">Fidelity</a>, <a href="https://start.tastyworks.com/#/login?referralCode=SP8DSHF682" target="_blank" rel="noreferrer">TastyTrade</a>, and sometimes <a href="https://join.robinhood.com/kristok207" target="_blank" rel="noreferrer">Robinhood</a>.</li>
               <li>I want this site to be fast, clean, and mobile friendly.</li>
-              <li>This website <u>does not</u> track anything. No Google Analytics and zero third-party scripts other than <a href="https://www.cloudflare.com" target="_blank">Cloudflare</a> for performance &amp; security.</li>
+              <li>This website <u>does not</u> track anything. No Google Analytics and zero third-party scripts other than <a href="https://www.cloudflare.com" target="_blank" rel="noreferrer">Cloudflare</a> for performance &amp; security.</li>
               <li>
                 I <u>do not</u> want to babysit option trades all day. I set alerts in my brokerage account and trade further out in time to mitigate gamma risk. Additionally, I trade mainly European style options (SPX, XSP) and utilize futures options (/ES, /MES, /CL, /MCL).
               </li>
@@ -29,8 +29,8 @@ function About() {
               <li>No sponsors.</li>
               <li>The only two book recommendations utilize Amazon affiliate tagging. Hey, I have to pay broker commissions &amp; fees too!</li>
               <ul>
-                <li><a href="https://www.amazon.com/Profiting-Iron-Condor-Options-Strategies-ebook/dp/B004K1F7HG/?tag=passiveoption-20" target="_blank">Profiting w/Iron Condor Options</a></li>
-                <li><a href="https://www.amazon.com/Options-as-Strategic-Investment-Fifth/dp/0735204659/?tag=passiveoption-20" target="_blank">Options as a Strategic Investment</a></li>
+                <li><a href="https://www.amazon.com/Profiting-Iron-Condor-Options-Strategies-ebook/dp/B004K1F7HG/?tag=passiveoption-20" target="_blank" rel="noreferrer">Profiting w/Iron Condor Options</a></li>
+                <li><a href="https://www.amazon.com/Options-as-Strategic-Investment-Fifth/dp/0735204659/?tag=passiveoption-20" target="_blank" rel="noreferrer">Options as a Strategic Investment</a></li>
               </ul>
             </ul>
 
