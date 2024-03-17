@@ -12,7 +12,7 @@ const PostList = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // TODO: change to async & await.
+    // TODO: change to async & await. Or react query. Or sw.
     useEffect(() => {
         fetch(`https://frp7yxvfsznb435yoar2beb45y0ddecx.lambda-url.us-east-1.on.aws/`)
             .then((response) => {
