@@ -14,6 +14,10 @@ function Navigation(props: NavigationProps) {
             <li className="nav-item">
                 <Link to={"/about"} className={props.aboutActive ? "nav-link active" : "nav-link"} title="About" >About</Link>
             </li>
+
+            <li className="nav-item">
+                <a href="https://github.com/dragthor/passiveblog" target="_blank" className="nav-link">Source Code</a>
+            </li>
         </ul>)
 };
 
