@@ -31,6 +31,7 @@ const SideBar = () => {
                 <li><a href="https://digital.fidelity.com/prgw/digital/taxyieldcalc/" target="_blank" rel="noreferrer">Taxable-Equivalent Yields</a></li>
                 <li><a href="https://ycharts.com/indicators/10_year_3_month_treasury_spread" target="_blank" rel="noreferrer">10 Year/3 Month Yield Spread</a></li>
                 <li><a href="https://tastyworks.freshdesk.com/support/solutions/articles/43000503202-cme-options-on-futures-specifications" target="_blank" rel="noreferrer">Options on Futures Spec</a></li>
+                <li><a href="https://www.random.org/passwords/" target="_blank" rel="noreferrer">Random Passwords</a></li>
 
             </ul>
 
