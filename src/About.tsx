@@ -17,6 +17,8 @@ function About() {
               I'm a computer programmer trying to understand passive option trading. Hopefully I'm profitable (long term).
             </p>
 
+
+
             <ul>
               <li>I have nothing to sell. No courses. No trainings. No coaching. No trade alerts.</li>
               <li>I <u>do not</u> care which broker you use. I use <a href="https://www.fidelity.com/options-trading/overview" target="_blank" rel="noreferrer">Fidelity</a>, <a href="https://start.tastyworks.com/#/login?referralCode=SP8DSHF682" target="_blank" rel="noreferrer">TastyTrade</a>, and sometimes <a href="https://join.robinhood.com/kristok207" target="_blank" rel="noreferrer">Robinhood</a>.</li>
@@ -38,6 +40,10 @@ function About() {
               <p>Please keep your position size small. Please limit your portfolio allocation (less than 5%).</p>
               <p>If not, then it's only a matter of time before you blow up your entire account.</p>
             </div>
+
+            <p>
+              The opinions expressed herein are my own personal opinions and do not represent my employer's view in any way.
+            </p>
           </div>
           <div className="col-sm-12 col-md-4 col-lg-3">
             <SideBar />
